@@ -1,5 +1,5 @@
 {
-  "name": "comite_innov",
+  "name": "comite_innovation",
   "version": "0.0.1",
   "description": "Présentation du comité innovation des TI de Ville de Laval",
   "main": "index.js",
@@ -9,8 +9,14 @@
   },
   "keywords": [
     "slides",
-    "innovation"
+    "presentations",
+    "innovation",
+    "laval"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/villelaval/presentations.git"
+  },
   "author": "mrich316",
   "license": "ISC",
   "dependencies": {
