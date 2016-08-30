@@ -1,0 +1,22 @@
+{
+  "name": "comite_innov",
+  "version": "0.0.1",
+  "description": "Présentation du comité innovation des TI de Ville de Laval",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "slides",
+    "innovation"
+  ],
+  "author": "mrich316",
+  "license": "ISC",
+  "dependencies": {
+    "reveal": "0.0.4"
+  },
+  "devDependencies": {
+    "lite-server": "^2.2.2"
+  }
+}
