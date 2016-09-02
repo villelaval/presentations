@@ -1,14 +1,11 @@
 @import 'node_modules/reveal/index.css';
 @import 'node_modules/reveal/theme/sky.css';
 
-@import 'rotating-words.css';
-
 .reveal h6 {
     font-size: 60%
 }
 
-.reveal p,
-.reveal  .rw-wrapper {
+.reveal p {
     margin-top:2em;
 }
 
@@ -26,17 +23,8 @@
     animation: glide 1s linear 0s;
 }
 
-.reveal .slide-title.down {
-    animation: glideDown 1s linear 0s;
-}
-
 @keyframes glide {
     0% { opacity: 0; transform: translateY(-30px); }
-    100% { opacity: 1; transform: translateY(0px); }
-}
-
-@keyframes glideDown {
-    0% { opacity: 0; transform: translateY(30px); }
     100% { opacity: 1; transform: translateY(0px); }
 }
 
