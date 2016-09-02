@@ -24,15 +24,20 @@
 
         <!-- Any section element inside of this container is displayed as a slide -->
         <div class="slides">
-            <section>
+            <section data-transition="none">
                 <h1 class="slide-title">Espace<br/>innovation</h1>
-            <aside class="notes">
-                    richard brise les slides
-                </aside>
-
             </section>
 
-            <section>
+            <section class="break-slides" data-background-color="#2067b2" data-transition="none">
+                <span class="big">:(</span>
+                <p>Your PC ran into a problem and needs to restart. We're just collecting some error info,
+                    and then, we'll restart your slides for you.
+                </p>
+                <p class="small">If you'd like to know more, you can search online later for this error: TOO COOL FOR LAVAL
+                </p>
+            </section>
+
+            <section data-transition="none">
                 <h2>Le contexte</h2>
                 <h3>L'innovation est au coeur des valeurs de la ville</h3>
 
@@ -232,6 +237,7 @@ recueuillir les problèmes, les idées
                     mouseWheel: true,
                     history: true,
                     transition: 'default',
+                    backgroundTransition: 'none',
                     parallaxBackgroundImage: 'sky-clouds-sun-wallpaper.jpg',
                     parallaxBackgroundSize: '3840px 2160px'
                 });

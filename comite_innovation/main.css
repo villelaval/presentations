@@ -31,3 +31,26 @@
 .reveal h1 {
     text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
 }
+
+.reveal .break-slides,
+.reveal .break-slides span.big,
+.reveal .break-slides p,
+.reveal .break-slides p.small {
+    background-color: #2067b2;
+    font-family: 'Consolas', 'Lucida Console',  sans-serif;
+    text-shadow: none;
+    text-align: left;
+    color: white;
+    font-weight: normal;
+}
+
+.reveal .break-slides span.big{
+    font-size: 600%;
+    position:relative;
+    left:-0.20em;
+}
+
+.reveal .break-slides p.small{
+    margin-top: 5em;
+    font-size: 60%;
+}
