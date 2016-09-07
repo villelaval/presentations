@@ -13,6 +13,11 @@
     border: 0;
 }
 
+.reveal em {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    color: #00547a;
+}
+
 .reveal section img.no-borders {
     background: transparent;
     border: 0;
