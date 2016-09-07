@@ -18,6 +18,10 @@
     color: #00547a;
 }
 
+.reveal .leading {
+    margin-top: 1em;
+}
+
 .reveal section img.no-borders {
     background: transparent;
     border: 0;
