@@ -2,11 +2,12 @@
 @import 'node_modules/reveal/theme/sky.css';
 
 .reveal h6 {
-    font-size: 60%
+    font-size: 60%;
 }
 
 .reveal p {
     margin-top:2em;
+    font-size: 120%;
 }
 
 .reveal img {
